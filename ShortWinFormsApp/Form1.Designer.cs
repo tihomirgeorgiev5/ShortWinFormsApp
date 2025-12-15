@@ -53,16 +53,17 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(219, 179);
+            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textBox1.Location = new Point(26, 56);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(746, 23);
             textBox1.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(784, 402);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button1);
