@@ -35,11 +35,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(323, 332);
+            button1.Location = new Point(314, 254);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Click Me!";
             button1.UseVisualStyleBackColor = true;
             // 
             // label1
